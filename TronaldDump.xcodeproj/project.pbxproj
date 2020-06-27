@@ -13,7 +13,40 @@
 		30B5736E24A771610053DAA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B5736C24A771610053DAA9 /* Main.storyboard */; };
 		30B5737024A771620053DAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B5736F24A771620053DAA9 /* Assets.xcassets */; };
 		30B5737324A771620053DAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B5737124A771620053DAA9 /* LaunchScreen.storyboard */; };
+		30B5738124A7718B0053DAA9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B5738024A7718B0053DAA9 /* WidgetKit.framework */; };
+		30B5738324A7718B0053DAA9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B5738224A7718B0053DAA9 /* SwiftUI.framework */; };
+		30B5738624A7718B0053DAA9 /* TronaldDumpWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5738524A7718B0053DAA9 /* TronaldDumpWidget.swift */; };
+		30B5738924A7718D0053DAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B5738824A7718D0053DAA9 /* Assets.xcassets */; };
+		30B5738B24A7718D0053DAA9 /* TronaldDumpWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 30B5738724A7718B0053DAA9 /* TronaldDumpWidget.intentdefinition */; };
+		30B5738C24A7718D0053DAA9 /* TronaldDumpWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 30B5738724A7718B0053DAA9 /* TronaldDumpWidget.intentdefinition */; };
+		30B5738F24A7718D0053DAA9 /* TronaldDumpWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 30B5737E24A7718B0053DAA9 /* TronaldDumpWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30B5739524A771A60053DAA9 /* TronaldDumpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5739424A771A60053DAA9 /* TronaldDumpController.swift */; };
+		30B5739624A771A60053DAA9 /* TronaldDumpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B5739424A771A60053DAA9 /* TronaldDumpController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30B5738D24A7718D0053DAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30B5735B24A771600053DAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30B5737D24A7718B0053DAA9;
+			remoteInfo = TronaldDumpWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30B5739324A7718D0053DAA9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30B5738F24A7718D0053DAA9 /* TronaldDumpWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		30B5736324A771610053DAA9 /* TronaldDump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TronaldDump.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +57,14 @@
 		30B5736F24A771620053DAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30B5737224A771620053DAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30B5737424A771620053DAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B5737E24A7718B0053DAA9 /* TronaldDumpWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TronaldDumpWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B5738024A7718B0053DAA9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		30B5738224A7718B0053DAA9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		30B5738524A7718B0053DAA9 /* TronaldDumpWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronaldDumpWidget.swift; sourceTree = "<group>"; };
+		30B5738724A7718B0053DAA9 /* TronaldDumpWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TronaldDumpWidget.intentdefinition; sourceTree = "<group>"; };
+		30B5738824A7718D0053DAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B5738A24A7718D0053DAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B5739424A771A60053DAA9 /* TronaldDumpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TronaldDumpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +75,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30B5737B24A7718B0053DAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B5738324A7718B0053DAA9 /* SwiftUI.framework in Frameworks */,
+				30B5738124A7718B0053DAA9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		30B5735A24A771600053DAA9 = {
 			isa = PBXGroup;
 			children = (
+				30B5739724A771AB0053DAA9 /* TronaldDumpShared */,
 				30B5736524A771610053DAA9 /* TronaldDump */,
+				30B5738424A7718B0053DAA9 /* TronaldDumpWidget */,
+				30B5737F24A7718B0053DAA9 /* Frameworks */,
 				30B5736424A771610053DAA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				30B5736324A771610053DAA9 /* TronaldDump.app */,
+				30B5737E24A7718B0053DAA9 /* TronaldDumpWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +121,34 @@
 			path = TronaldDump;
 			sourceTree = "<group>";
 		};
+		30B5737F24A7718B0053DAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30B5738024A7718B0053DAA9 /* WidgetKit.framework */,
+				30B5738224A7718B0053DAA9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30B5738424A7718B0053DAA9 /* TronaldDumpWidget */ = {
+			isa = PBXGroup;
+			children = (
+				30B5738524A7718B0053DAA9 /* TronaldDumpWidget.swift */,
+				30B5738724A7718B0053DAA9 /* TronaldDumpWidget.intentdefinition */,
+				30B5738824A7718D0053DAA9 /* Assets.xcassets */,
+				30B5738A24A7718D0053DAA9 /* Info.plist */,
+			);
+			path = TronaldDumpWidget;
+			sourceTree = "<group>";
+		};
+		30B5739724A771AB0053DAA9 /* TronaldDumpShared */ = {
+			isa = PBXGroup;
+			children = (
+				30B5739424A771A60053DAA9 /* TronaldDumpController.swift */,
+			);
+			path = TronaldDumpShared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +159,34 @@
 				30B5735F24A771610053DAA9 /* Sources */,
 				30B5736024A771610053DAA9 /* Frameworks */,
 				30B5736124A771610053DAA9 /* Resources */,
+				30B5739324A7718D0053DAA9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				30B5738E24A7718D0053DAA9 /* PBXTargetDependency */,
 			);
 			name = TronaldDump;
 			productName = TronaldDump;
 			productReference = 30B5736324A771610053DAA9 /* TronaldDump.app */;
 			productType = "com.apple.product-type.application";
+		};
+		30B5737D24A7718B0053DAA9 /* TronaldDumpWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B5739024A7718D0053DAA9 /* Build configuration list for PBXNativeTarget "TronaldDumpWidgetExtension" */;
+			buildPhases = (
+				30B5737A24A7718B0053DAA9 /* Sources */,
+				30B5737B24A7718B0053DAA9 /* Frameworks */,
+				30B5737C24A7718B0053DAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TronaldDumpWidgetExtension;
+			productName = TronaldDumpWidgetExtension;
+			productReference = 30B5737E24A7718B0053DAA9 /* TronaldDumpWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +198,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					30B5736224A771610053DAA9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					30B5737D24A7718B0053DAA9 = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -115,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				30B5736224A771610053DAA9 /* TronaldDump */,
+				30B5737D24A7718B0053DAA9 /* TronaldDumpWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +235,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30B5737C24A7718B0053DAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B5738924A7718D0053DAA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +251,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B5736B24A771610053DAA9 /* ViewController.swift in Sources */,
+				30B5738C24A7718D0053DAA9 /* TronaldDumpWidget.intentdefinition in Sources */,
+				30B5739524A771A60053DAA9 /* TronaldDumpController.swift in Sources */,
 				30B5736724A771610053DAA9 /* AppDelegate.swift in Sources */,
 				30B5736924A771610053DAA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30B5737A24A7718B0053DAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B5738624A7718B0053DAA9 /* TronaldDumpWidget.swift in Sources */,
+				30B5739624A771A60053DAA9 /* TronaldDumpController.swift in Sources */,
+				30B5738B24A7718D0053DAA9 /* TronaldDumpWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30B5738E24A7718D0053DAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30B5737D24A7718B0053DAA9 /* TronaldDumpWidgetExtension */;
+			targetProxy = 30B5738D24A7718D0053DAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		30B5736C24A771610053DAA9 /* Main.storyboard */ = {
@@ -284,6 +417,7 @@
 		30B5737824A771620053DAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +437,7 @@
 		30B5737924A771620053DAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +449,48 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.aritropaul.TronaldDump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30B5739124A7718D0053DAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3WW2KWBU;
+				INFOPLIST_FILE = TronaldDumpWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aritropaul.TronaldDump.TronaldDumpWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30B5739224A7718D0053DAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2J3WW2KWBU;
+				INFOPLIST_FILE = TronaldDumpWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aritropaul.TronaldDump.TronaldDumpWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -336,6 +513,15 @@
 			buildConfigurations = (
 				30B5737824A771620053DAA9 /* Debug */,
 				30B5737924A771620053DAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B5739024A7718D0053DAA9 /* Build configuration list for PBXNativeTarget "TronaldDumpWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B5739124A7718D0053DAA9 /* Debug */,
+				30B5739224A7718D0053DAA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
